@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom web search</title>
+    <link rel="shortcut icon" href="./img/networkFavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- header -->
+       <a href="index.html" class="logo">Custom Search Web</a>
+
+       <nav>
+            <a href="./pages/advanceSearch.html">Advance Search</a>
+            <a href="./pages/imagesSearch.html">Images Search</a>
+       </nav>
+
+       <!-- search -->
+       <form action="https://www.google.com/search" method="get" target="_blank" class="indexForm">
+           
+            <input type="text" id="search" name="q" required>
+
+            <div class="search-inputs">
+                <input type="submit" value="Google search" name="btnK">
+                <input type="submit" value="I'm feeling lucky" name="btnI" formaction="https://www.google.com/search?q=I%27m+Feeling+Lucky">
+            </div>
+            
+       </form>
+
+
+    </div>
+</body>
+</html>
+
