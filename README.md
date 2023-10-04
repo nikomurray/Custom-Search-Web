@@ -7,5 +7,5 @@ Advance Search<br>
 Images Search<br><br>
 (You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.)<br>
 
-Live view https://nikomurray.github.io/Custom-Search-Web/ <br>
+Live view https://nikomurray.github.io/Custom-Search-Web/ <br><br>
 [![custom-Search-Web.png](https://i.postimg.cc/WzzYdMh6/custom-Search-Web.png)](https://postimg.cc/1VxrTV0f) 
