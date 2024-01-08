@@ -30,6 +30,10 @@ video {
     object-fit: cover;
 }
 
+.home-mobile-video{
+    display: none;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -255,4 +259,13 @@ main h3 {
     main h3{
         font-size: 1rem;
     }
+
+    .home-desktop-video{
+        display: none;
+    }
+
+    .home-mobile-video{
+        display: block;
+    }
 }
+
