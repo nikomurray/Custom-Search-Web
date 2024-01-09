@@ -244,7 +244,7 @@ main .cards h3{
     border: solid #002051 1px;
     padding: 5px 15px;
     background: #041d559c;
-    margin: 20px 0;
+    margin: 16px 0;
     font-size: 1.6rem;
     display: flex;
     align-items: center;
@@ -252,6 +252,8 @@ main .cards h3{
 }
 
 main .card {
+    width: 350px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,7 +338,12 @@ main .card p::before{
     }
     main .cards{
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
+    }
+
+    main .card {
+        width: 300px;
+
     }
 
     main .cards img {
