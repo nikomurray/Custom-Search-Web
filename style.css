@@ -203,7 +203,10 @@ h1 img {
 /* ABOUT US */
 main {
     padding: 40px 0;
-    background: linear-gradient(180deg, #090E16 0%, #1C3473 100%);
+    background-image: url(./img/Wireframe\ -\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -269,6 +272,11 @@ main .card:hover{
     box-shadow: 0 0 5px #ffffff;
 }
 
+main .card h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
 main .card p{
     font-size: 1.2rem;
     font-weight: 300;
@@ -276,8 +284,34 @@ main .card p{
 
 main .card p::before{
     content: "• ";
-    color: #00c8ff;
+    color: #0073ff;
     font-weight: bold; 
+}
+
+main .text-info{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+main .text-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 350px;
+}
+
+main .text-info h4{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #00000052;
+    padding: 5px 15px;
+    border-radius: 4px;
 }
 /* MQ */
 @media (max-width:850px) {
@@ -332,6 +366,9 @@ main .card p::before{
     }
 
     /* MAIN */
+    main {
+        background-image: url(./img/Wireframe\ -\ 2.svg);
+    }
 
     main h2{
         font-size: 1.6rem;
@@ -364,6 +401,10 @@ main .card p::before{
 
     main .cards p {
         font-size: 0.8rem;
+    }
+
+    main .text-info {
+        display: none;
     }
 }
 
