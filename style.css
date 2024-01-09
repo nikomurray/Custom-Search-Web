@@ -136,7 +136,7 @@ h1 img {
     padding: 5px 20px;
     border-radius: 4px;
     transition: all 0.2s;
-    font-weight: 700;
+    font-weight: 400;
     text-shadow: none;
 }
 
@@ -162,7 +162,7 @@ h1 img {
     right: 0;
     top: 0;
     width: 60vw;
-    height: 40vh;
+    height: 50vh;
     background-color: #001d5dd1;
     border-radius: 4px;
     box-shadow: 0 0 0 100vmax #000000ac;
@@ -203,8 +203,28 @@ h1 img {
 
 /* ABOUT US */
 main {
+    position: relative;
     padding: 40px 0;
     background: linear-gradient(180deg, #090E16 0%, #1C3473 100%);
+}
+
+.logo-bg{
+    position: absolute;
+    left: 0px;
+    top:10px;
+    opacity: 0.2;
+    transform: rotate(30deg);
+}
+
+.logo-bg img {
+    width: 280px;
+    height: 280px;
+}
+
+.main-container{
+    width: 96%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 main h2 {
@@ -219,6 +239,50 @@ main h3 {
     font-weight: 300;
 }
 
+main img{
+    width: 220px;
+    height: 220px;
+}
+
+main .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 60px;
+}
+
+main .cards h3{
+    text-wrap: nowrap;
+    border-radius: 10px;
+    border: solid #fff 1px;
+    padding: 5px 15px;
+    background: #0000002f;
+    margin: 20px 0;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+
+main .card p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+main .card p::before{
+    content: "• ";
+    color: #00c8ff;
+    font-weight: bold; 
+}
 /* MQ */
 @media (max-width:850px) {
 
@@ -253,7 +317,7 @@ main h3 {
     }
 
     main h2{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     main h3{
@@ -266,6 +330,36 @@ main h3 {
 
     .home-mobile-video{
         display: block;
+    }
+
+    .buttons a{
+        font-size: 0.8rem;
+    }
+
+    main .logo-bg img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+
+
+    main .cards {
+        margin-top: 30px;
+    }
+    main .cards img{
+        width: 90px;
+        height: 90px;
+    }
+
+    main .card h3{
+        font-size: 0.8rem;
+    }
+
+    main .cards p{
+        font-size: 0.5rem;
     }
 }
 
