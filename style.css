@@ -132,7 +132,7 @@ h1 img {
 }
 
 .cta-btn {
-    background: #004cffaf;
+    background: #003cffa2;
     padding: 5px 20px;
     border-radius: 4px;
     transition: all 0.2s;
@@ -181,7 +181,6 @@ h1 img {
 }
 
 .drop .close {
-    font-size: 14px;
     position: absolute;
     right: 14px;
     top: 1px;
@@ -310,12 +309,12 @@ main .card p::before{
     }
 
     .text {
-        height: 75%;
+        height: 80%;
         justify-content: space-between;
     }
 
     .text h2 {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .text h3 {
@@ -329,7 +328,7 @@ main .card p::before{
 
 
     .buttons a{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     /* MAIN */
