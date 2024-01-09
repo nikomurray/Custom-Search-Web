@@ -203,23 +203,10 @@ h1 img {
 
 /* ABOUT US */
 main {
-    position: relative;
     padding: 40px 0;
     background: linear-gradient(180deg, #090E16 0%, #1C3473 100%);
 }
 
-.logo-bg{
-    position: absolute;
-    left: 0px;
-    top:10px;
-    opacity: 0.2;
-    transform: rotate(30deg);
-}
-
-.logo-bg img {
-    width: 280px;
-    height: 280px;
-}
 
 .main-container{
     width: 96%;
@@ -254,9 +241,9 @@ main .cards {
 main .cards h3{
     text-wrap: nowrap;
     border-radius: 10px;
-    border: solid #fff 1px;
+    border: solid #002051 1px;
     padding: 5px 15px;
-    background: #0000002f;
+    background: #041d559c;
     margin: 20px 0;
     font-size: 1.6rem;
     display: flex;
@@ -270,8 +257,16 @@ main .card {
     align-items: center;
     text-align: center;
     gap: 12px;
+    background-color: #00000060;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffffff63;
+    transition: all 0.2s;
 }
 
+main .card:hover{
+    box-shadow: 0 0 5px #ffffff;
+}
 
 main .card p{
     font-size: 1.2rem;
@@ -285,6 +280,15 @@ main .card p::before{
 }
 /* MQ */
 @media (max-width:850px) {
+
+    .home-desktop-video{
+        display: none;
+    }
+
+    .home-mobile-video{
+        display: block;
+    }
+
 
     h1 {
         font-size: 1.4rem;
@@ -316,50 +320,36 @@ main .card p::before{
         display: none;
     }
 
-    main h2{
-        font-size: 1.4rem;
-    }
-
-    main h3{
-        font-size: 1rem;
-    }
-
-    .home-desktop-video{
-        display: none;
-    }
-
-    .home-mobile-video{
-        display: block;
-    }
 
     .buttons a{
         font-size: 0.8rem;
     }
 
-    main .logo-bg img{
-        width: 100px;
-        height: 100px;
+    /* MAIN */
+
+    main h2{
+        font-size: 2rem;
     }
 
-    .main-container{
-        width: 100%;
+    main h3{
+        font-size: 1.5rem;
+    }
+    main .cards{
+        flex-direction: column;
+        gap: 80px;
     }
 
-
-    main .cards {
-        margin-top: 30px;
-    }
-    main .cards img{
-        width: 90px;
-        height: 90px;
+    main .cards img {
+        width: 180px;
+        height: 180px;
     }
 
-    main .card h3{
-        font-size: 0.8rem;
+    main .cards h3{
+        font-size: 1.2rem;
     }
 
-    main .cards p{
-        font-size: 0.5rem;
+    main .cards p {
+        font-size: 1rem;
     }
 }
 
