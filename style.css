@@ -311,6 +311,10 @@ main .text-info h4{
     border-radius: 4px;
 }
 
+main .text-info p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
 /* PORTAFOLIO */
 .portafolio {
     padding: 40px 20px;
