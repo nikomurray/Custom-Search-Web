@@ -203,10 +203,7 @@ h1 img {
 /* ABOUT US */
 main {
     padding: 40px 0;
-    background-image: url(./img/Wireframe\ -\ 1.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(180deg, #090E16 0%, #1C3473 100%);
 }
 
 
@@ -313,6 +310,35 @@ main .text-info h4{
     padding: 5px 15px;
     border-radius: 4px;
 }
+
+/* PORTAFOLIO */
+.portafolio {
+    padding: 40px 20px;
+    height: 100vh;
+}
+
+.portafolio h2{
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.portafolio h2 hr {
+    width: 100%;
+    border: none;
+    border-top: 2px dashed #ffffffa1;
+    margin: 20px 0;
+}
+
+.portafolio-grid{
+    height: 100%;
+    background-color: #00000053;
+    border-radius: 4px;
+}
+
 /* MQ */
 @media (max-width:850px) {
 
@@ -366,10 +392,6 @@ main .text-info h4{
     }
 
     /* MAIN */
-    main {
-        background-image: url(./img/Wireframe\ -\ 2.svg);
-    }
-
     main h2{
         font-size: 1.6rem;
     }
@@ -405,6 +427,12 @@ main .text-info h4{
 
     main .text-info {
         display: none;
+    }
+
+    /* portafolio */
+    .portafolio h2 {
+        font-size: 1.4rem;
+        gap: 10px;
     }
 }
 
